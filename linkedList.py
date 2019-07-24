@@ -17,10 +17,10 @@ class linked_list :
     def addAtEnd(self, data) :
         if not self.head :
             self.head = node(data = data)
-            return
+            #return
         curr = self.head
         while curr.next :
-            curr = surr.next
+            curr = curr.next
         curr.next = node(data = data)
 
     def deleteNode(self, key) :

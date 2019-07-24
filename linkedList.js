@@ -1,3 +1,4 @@
+//Simpler Implementation
 class node {
     constructor (data = null, next = null) {
         this.data = data;

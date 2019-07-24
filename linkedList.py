@@ -51,8 +51,10 @@ class linked_list :
 if __name__ == "__main__" :
     s = linked_list()
     s.addToFront(5)
+    s.deleteNode(5)
     s.addToFront(8)
-    s.addToFront(9)
+    s.addAtEnd("end")
+    print (s.getLastNode())
     s.printList()
 
     print("\n")

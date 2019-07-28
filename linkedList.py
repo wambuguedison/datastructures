@@ -168,7 +168,7 @@ class linkedList :
         else :
             pos = None
         return pos
-
+	
     def pop(self, position = None) :
         """
             If no argument is provided, return and remove the item at the head
@@ -226,4 +226,5 @@ if __name__ == "__main__" :
     listExamp.insert(1, 'e')
     listExamp.append('l')
     listExamp.append('o')
+    print(listExamp.index("H"))
     listExamp.printList()
